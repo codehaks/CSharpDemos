@@ -31,7 +31,6 @@ namespace YieldReturnDemo
 
         public static IEnumerable<double> PowerBy2Yield(int count)
         {
-            var result = new List<double>();
             for (int i = 1; i < count + 1; i++)
             {
                 yield return Math.Pow(2, i);
